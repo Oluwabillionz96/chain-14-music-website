@@ -1,9 +1,16 @@
 import React from 'react'
+import ArtistSection from '../component/artist-section'
+
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <main>
+      <ArtistSection />
+    </main>
   )
 }
+
+
 
 export default App
