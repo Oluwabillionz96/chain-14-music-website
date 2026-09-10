@@ -3,6 +3,7 @@ import PlayList from '../component/playlist-section'
 import RecentlyPlayedSection from '../component/recently-played-section'
 // impor
 import AlbumSection from '../component/album-section'
+import SongsSection from '../component/song'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <PlayList />
     <AlbumSection />
       <RecentlyPlayedSection />
+    <SongsSection />
       
 
     </main>
