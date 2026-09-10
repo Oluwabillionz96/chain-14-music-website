@@ -56,6 +56,45 @@ export const playlists = [
     id: 5,
     name: "Favorites",
     songCount: 31,
+
+
+export const recentlyPlayed = [
+  {
+    id: 1,
+    title: "Last Last",
+    artist: "Burna Boy",
+    duration: "2:52",
+    image: "last-last.jpg",
+  },
+  {
+    id: 2,
+    title: "Essence",
+    artist: "Wizkid ft. Tems",
+    duration: "4:08",
+    image: "essence.jpg",
+  },
+  {
+    id: 3,
+    title: "Me & U",
+    artist: "Tems",
+    duration: "3:24",
+    image: "me-and-u.jpg",
+  },
+  {
+    id: 4,
+    title: "Unavailable",
+    artist: "Davido ft. Musa Keys",
+    duration: "2:49",
+    image: "unavailable.jpg",
+  },
+  {
+    id: 5,
+    title: "Calm Down",
+    artist: "Rema",
+    duration: "3:39",
+    image: "calm-down.jpg",
+  },
+]; 
 export const albums = [
   {
     id: 1,
