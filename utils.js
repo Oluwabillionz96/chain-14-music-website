@@ -70,3 +70,47 @@ export const recentlyPlayed = [
     image: "calm-down.jpg",
   },
 ]; 
+export const albums = [
+  {
+    id: 1,
+    title: "Twice As Tall",
+    artist: "Burna Boy",
+    year: 2020,
+    image: "https://imgs.search.brave.com/tDia4ySrNXIV60SEoyd4lzX_zYbq3e5sgrO2jJd1rmU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFUb2ZXekN0ZUwu/anBn",
+  },
+  {
+    id: 2,
+    title: "Made in Lagos",
+    artist: "Wizkid",
+    year: 2020,
+    image: "https://imgs.search.brave.com/HuSiOrDJ8n25C-BnM5Rajp6yFNOtt5bx7WsUPDIySPA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/MzEzaUc4bWFDNkwu/anBn",
+  },
+  {
+    id: 3,
+    title: "Born in the Wild",
+    artist: "Tems",
+    year: 2024,
+    image: "https://imgs.search.brave.com/tcAD8XMTCuCGUk-EcZqcbvLE3OGsTusgd1jSOsRMFH8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/OC84Ny9UZW1zXy1f/Qm9ybl9pbl90aGVf/V2lsZF9hbGJ1bV9j/b3Zlci5qcGcvMjUw/cHgtVGVtc18tX0Jv/cm5faW5fdGhlX1dp/bGRfYWxidW1fY292/ZXIuanBn",
+  },
+  {
+    id: 4,
+    title: "Timeless",
+    artist: "Davido",
+    year: 2023,
+    image: "https://imgs.search.brave.com/1ReuNhy1WAPNFomg4KmT3Wz9aNGnnFrceyu2AwI5HtA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zb3Vy/Y2UuYm9vbXBsYXlt/dXNpYy5jb20vZ3Jv/dXAxMC9NMDAvMDQv/MDcvMzE5MGYzM2Fh/ZDdkNGViOGJiYzg5/ZDY2NmQ5ZTA2YTlf/MzIwXzMyMC5qcGc",
+  },
+  {
+    id: 5,
+    title: "Rave & Roses",
+    artist: "Rema",
+    year: 2022,
+    image: "https://imgs.search.brave.com/8VC6UUNHlprKL4fte-CM4hRsFBXmwJIS7ctO7yz1k7o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zb3Vy/Y2UuYm9vbXBsYXlt/dXNpYy5jb20vZ3Jv/dXAxMC9NMDAvMDMv/MjMvNWJmMTc4MWIz/ZGI2NGY1OWEyZDNk/OGVhNWM2NWFkMWVf/MzIwXzMyMC5qcGVn",
+  },
+  {
+    id: 6,
+    title: "19 & Dangerous",
+    artist: "Ayra Starr",
+    year: 2021,
+    image: "https://imgs.search.brave.com/BN9GAW3m9RtHoew_4QSQRNeoW9_Y-OWz_mz9pjVLqqI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vanVzdG5h/aWphLmNvbS91cGxv/YWRzLzIwMjEvMDgv/QXlyYS1TdGFyci0x/OS1EYW5nZXJvdXMt/QWxidW0tYXJ0d29y/ay5wbmc_dWxiPWZh/bHNlJnNzbD0xJnJl/c2l6ZT0zMjAsMzUw",
+  },
+];
