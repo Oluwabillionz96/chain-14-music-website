@@ -31,6 +31,31 @@
   },
 ];
 
+export const playlists = [
+  {
+    id: 1,
+    name: "Chill",
+    songCount: 24,
+  },
+  {
+    id: 2,
+    name: "Workout",
+    songCount: 38,
+  },
+  {
+    id: 3,
+    name: "Late Night",
+    songCount: 17,
+  },
+  {
+    id: 4,
+    name: "Afrobeats",
+    songCount: 42,
+  },
+  {
+    id: 5,
+    name: "Favorites",
+    songCount: 31,
 
 
 export const recentlyPlayed = [
