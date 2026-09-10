@@ -1,17 +1,23 @@
-import Album from './album-card.jsx'
+import { albums } from "../utils";
+import AlbumCard from "./album-card";
 
-import {albums} from '../utils.js'
-
-function AlbumSection() {
-  return(
+export default function AlbumSection() {
+  return (
     <section>
-    <h2>Album</h2>
-    <div className="albums"></div>
-    {albums.map(({id, title, artist,year, image})=>
-    <Album key={id} title={title} artist={artist} year={year} image={image}></Album>
-    )}
+      <h2>Albums</h2>
+      <div class="albums">
+        {albums.map((item) => {
+          return (
+            <AlbumCard
+              key={item.id}
+              name={item.title}
+              artist={item.artist}
+              year={item.year}
+              image={item.image}
+            />
+          );
+        })}
+      </div>
     </section>
-  )
-} 
-
-export default AlbumSection
+  );
+}

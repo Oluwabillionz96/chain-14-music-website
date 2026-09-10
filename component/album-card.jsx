@@ -1,6 +1,6 @@
 function Album({image, name, artist, year}){
     return(
-     <div>
+     <div className="album">
        <img src={image}/>
        <h3>{name}</h3>
        <p>{artist} • {year}</p>
