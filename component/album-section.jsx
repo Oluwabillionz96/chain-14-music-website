@@ -1,5 +1,7 @@
 import { albums } from "../utils";
 import AlbumCard from "./album-card";
+import ArtistSection from "./artist-section";
+import { NavLink } from "react-router";
 
 export default function AlbumSection() {
   return (
@@ -18,6 +20,7 @@ export default function AlbumSection() {
           );
         })}
       </div>
+      <NavLink to="/artist">view artists</NavLink>
     </section>
   );
 }
