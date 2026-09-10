@@ -1,5 +1,6 @@
 import ArtistCard from "./artist-card"
 import {artists} from "../utils"
+import { NavLink } from "react-router"
  
 
 
@@ -15,6 +16,7 @@ const ArtistSection = ()=> {
   return <ArtistCard key={item.id} artist={item.name} image={item.image}/>
  })}
   </div>
+  <NavLink to="/artist" className="view-all">View All</NavLink>
   </section>
 }
 
