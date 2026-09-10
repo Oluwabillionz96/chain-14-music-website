@@ -1,4 +1,5 @@
 import {playlists} from "../utils"
+import { NavLink } from "react-router"
 
 const PlayList = ()=> {
   return <section>
@@ -12,6 +13,7 @@ const PlayList = ()=> {
     </div>
   })}
   </div>
+  <NavLink to="/playlist">See all platlists</NavLink>
   </section>
 }
 
