@@ -1,33 +1,133 @@
- export const artists = [
+export const artists = [
   {
     id: 1,
-    name: "Juice world",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1YY0WdFgT2ZZz5Rs5gNVryxl8l-KsaqHPVrk1MH9a8MLC6EC0xDRrQ0EQM5JEKTZkLM50gIPK0nLuqO38HSibpK9uKir_FLlQzoCMBytv&s=10",
+    name: "Burna Boy",
+    image:
+      "https://imgs.search.brave.com/fj0E4kfAk900U1Y2hZkamTl6Dw6yKXSdUlNjFp81fOo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5waXRjaGZvcmsu/Y29tL3Bob3Rvcy82/M2YyZWY4ZDRiMWE1/ZWZhOWE3NGM0Njkv/MTY6OS93XzgwMCxo/XzQ1MCxjX2xpbWl0/L2J1cm5hLWJveS0y/MDIzLW5iYS1hbGwt/c3Rhci1nYW1lLWhh/bGZ0aW1lLXNob3ct/dGVtcy1yZW1hLXZp/ZGVvLXlvdXR1YmUu/cG5n",
   },
   {
     id: 2,
     name: "Tems",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmHK-T-WFsbajPUeWDUYJ5QDgvwkx1MLVvIk78D85IDMXHrxQE_6j-1UZ9le_jGQEVAYs0o9kmNPReyIZW_h5M14AEA6yLcGPag4FEWfsNGg&s=10",
+    image:
+      "https://imgs.search.brave.com/xN0G0TSdAXKS9kJZ125Jt5MXpknSA8noHuQzN132M8A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dGhlY2l0eWNlbGVi/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNS9QaG90/by1vZi1UZW1zLXNo/YXJlZC1ieS1URU1T/LW9uLUp1bHktMDct/MjAyNS10YWdnaW5n/LUBiZXR0dGVuY291/cnQud2VicA",
   },
   {
     id: 3,
     name: "Wizkid",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEIooe6z7Xvp3ZsT4bT-MgQvBkTbtKVEv7OD7GPIe5q2fRRlk5rubbrRt7pCPSXG5vF4sZApLXpGwCoW3q1vMtUS9zfywnR6ZelwPuZsZ-&s=10",
+    image:
+      "https://imgs.search.brave.com/Qe4bW75HxhjiQinjHmSuLF7mxTmZouLz2Of7OG-C-PQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTYw/MzkzMDQ0MC9waG90/by9vc2xvLW5vcndh/eS13aXpraWQtcGVy/Zm9ybXMtZHVyaW5n/LWRheS0xLW9mLW95/YWZlc3RpdmFsZW4t/MjAyMy1vbi1hdWd1/c3QtMDktMjAyMy1p/bi1vc2xvLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz0xcDN5/Z2FNZGhUZW1nTTBR/ZUlFRFVxTDVTQmlK/UjFvT29ZNmxPQ2E0/N3h3PQ",
   },
   {
     id: 4,
     name: "Davido",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZooUZoMJZC18Susr6N63rA1xtO9Y4aX5BG4oP7_aG6LUtjxRjjrIcpyyaxWAU53Zdy0ZjDHh1KUVvM6CxZJar22iEWkC5x03TOg1zGdk&s=10",
+    image:
+      "https://imgs.search.brave.com/cutg59HZvrId6_CFjJfagX-nKWBQ1VHneAF3tAQ-nk4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE4/NjA5Mzc1MS9waG90/by9hdGxhbnRhLWdl/b3JnaWEtcmVjb3Jk/aW5nLWFydGlzdC1k/YXZpZG8tcGVyZm9y/bXMtb25zdGFnZS1k/dXJpbmctZGF2aWRv/LWZyaWVuZHMtYmly/dGhkYXkuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVh0YTZE/aWFBUTVzU2txV1ZZ/R3VrOU84V19SMjhR/d2VfMlB5NkFfVElF/YU09",
   },
   {
     id: 5,
     name: "Ayra Starr",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIQtD4gdAtti5z3Nnz9rziJMIsujRDNM6x12mkkA2SJ3gBI5v65fq_CRSupBHP84J5mQjg3mg8GTqtNOaRFhnUNYEVnPni195AgPGRuTxG&s=10",
+    image:
+      "https://imgs.search.brave.com/7cl1sZLP4mZF8r9uXHYtC3RtwXSBYYF4HPPTWHlZA80/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2Fm/cm9iZWF0cy9pbWFn/ZXMvNi82Mi9BeXJh/X1N0YXJyLmpwZy9y/ZXZpc2lvbi9sYXRl/c3Qvc2NhbGUtdG8t/d2lkdGgtZG93bi8y/Njg_Y2I9MjAyMzEx/MjAyMTI4MzM",
   },
   {
     id: 6,
     name: "Rema",
-    image: "data:image/webp;base64,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",
+    image:
+      "https://imgs.search.brave.com/uKA7C44ZsgBXWt_gacRO4xSUC2tZa-awYfqJ-anXelk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE2/MjA5MjMyMC9waG90/by9sb25kb24tZW5n/bGFuZC1yZW1hLXBl/cmZvcm1zLWxpdmUt/b24tc3RhZ2UtZHVy/aW5nLWRheS10aHJl/ZS1vZi13aXJlbGVz/cy1mZXN0aXZhbC0y/MDI0LWF0LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz10REJ6/OFQ4R2pnQm92OTYy/OGg0NFVZV3hUakhC/WHJvbkNqVFo2aDNt/b3Z3PQ",
+  },
+];
+
+export const albums = [
+  {
+    id: 1,
+    title: "Twice As Tall",
+    artist: "Burna Boy",
+    year: 2020,
+    image:
+      "https://imgs.search.brave.com/tDia4ySrNXIV60SEoyd4lzX_zYbq3e5sgrO2jJd1rmU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFUb2ZXekN0ZUwu/anBn",
+  },
+  {
+    id: 2,
+    title: "Made in Lagos",
+    artist: "Wizkid",
+    year: 2020,
+    image:
+      "https://imgs.search.brave.com/HuSiOrDJ8n25C-BnM5Rajp6yFNOtt5bx7WsUPDIySPA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/MzEzaUc4bWFDNkwu/anBn",
+  },
+  {
+    id: 3,
+    title: "Born in the Wild",
+    artist: "Tems",
+    year: 2024,
+    image:
+      "https://imgs.search.brave.com/tcAD8XMTCuCGUk-EcZqcbvLE3OGsTusgd1jSOsRMFH8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/OC84Ny9UZW1zXy1f/Qm9ybl9pbl90aGVf/V2lsZF9hbGJ1bV9j/b3Zlci5qcGcvMjUw/cHgtVGVtc18tX0Jv/cm5faW5fdGhlX1dp/bGRfYWxidW1fY292/ZXIuanBn",
+  },
+  {
+    id: 4,
+    title: "Timeless",
+    artist: "Davido",
+    year: 2023,
+    image:
+      "https://imgs.search.brave.com/1ReuNhy1WAPNFomg4KmT3Wz9aNGnnFrceyu2AwI5HtA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zb3Vy/Y2UuYm9vbXBsYXlt/dXNpYy5jb20vZ3Jv/dXAxMC9NMDAvMDQv/MDcvMzE5MGYzM2Fh/ZDdkNGViOGJiYzg5/ZDY2NmQ5ZTA2YTlf/MzIwXzMyMC5qcGc",
+  },
+  {
+    id: 5,
+    title: "Rave & Roses",
+    artist: "Rema",
+    year: 2022,
+    image:
+      "https://imgs.search.brave.com/8VC6UUNHlprKL4fte-CM4hRsFBXmwJIS7ctO7yz1k7o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zb3Vy/Y2UuYm9vbXBsYXlt/dXNpYy5jb20vZ3Jv/dXAxMC9NMDAvMDMv/MjMvNWJmMTc4MWIz/ZGI2NGY1OWEyZDNk/OGVhNWM2NWFkMWVf/MzIwXzMyMC5qcGVn",
+  },
+  {
+    id: 6,
+    title: "19 & Dangerous",
+    artist: "Ayra Starr",
+    year: 2021,
+    image:
+      "https://imgs.search.brave.com/BN9GAW3m9RtHoew_4QSQRNeoW9_Y-OWz_mz9pjVLqqI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vanVzdG5h/aWphLmNvbS91cGxv/YWRzLzIwMjEvMDgv/QXlyYS1TdGFyci0x/OS1EYW5nZXJvdXMt/QWxidW0tYXJ0d29y/ay5wbmc_dWxiPWZh/bHNlJnNzbD0xJnJl/c2l6ZT0zMjAsMzUw",
+  },
+];
+
+export const recentlyPlayed = [
+  {
+    id: 1,
+    title: "Last Last",
+    artist: "Burna Boy",
+    duration: "2:52",
+    image:
+      "https://imgs.search.brave.com/45dhw5rfymtuKHsxyY67Gkpqk4jewq5sIvKbp3tsUlQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/eW91dHViZS5jb20v/dmkvNDIxdzFqODdm/RU0vaHFkZWZhdWx0/LmpwZw",
+  },
+  {
+    id: 2,
+    title: "Essence",
+    artist: "Wizkid ft. Tems",
+    duration: "4:08",
+    image:
+      "https://imgs.search.brave.com/A1o5mbvrwChfplrlS-acou2K4pJk51TtBy6y5lwKOus/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmF1/ZGlvbWFjay5jb20v/d2l6a2lkLzNkZTNj/NThhZWYud2VicD93/aWR0aD00MTY",
+  },
+  {
+    id: 3,
+    title: "Me & U",
+    artist: "Tems",
+    duration: "3:24",
+    image:
+      "https://imgs.search.brave.com/ayd-fBTGzN5ruLmgngpyHK0br3IiGbnZxW7dgtzRjow/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMS5z/bmRjZG4uY29tL2Fy/dHdvcmtzLXA4S0kx/Y2gwVlhzMGYzVWMt/WHlIeWx3LXQxMDgw/eDEwODAuanBn",
+  },
+  {
+    id: 4,
+    title: "Unavailable",
+    artist: "Davido ft. Musa Keys",
+    duration: "2:49",
+    image:
+      "https://imgs.search.brave.com/iQBTFSlUdb2PWkkQgs8FJ_oelhBYVJOChaoqlfMa3ew/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmF1/ZGlvbWFjay5jb20v/ZGF2aWRvLzc0YTRk/MmZkMWYud2VicD93/aWR0aD00MTY",
+  },
+  {
+    id: 5,
+    title: "Calm Down",
+    artist: "Rema",
+    duration: "3:39",
+    image:
+      "https://imgs.search.brave.com/KSWUmzmTTVcOuwVyLoJYCesMiELL7V_mum6wcUytNFY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmF1/ZGlvbWFjay5jb20v/aGVpc3JlbWEvMzNm/ODg2MDQ2Ni53ZWJw/P3dpZHRoPTQxNg",
   },
 ];
 
@@ -56,86 +156,80 @@ export const playlists = [
     id: 5,
     name: "Favorites",
     songCount: 31,
+  },
+];
 
-
-export const recentlyPlayed = [
+export const songs = [
   {
     id: 1,
-    title: "Last Last",
+    title: "Wonderful",
     artist: "Burna Boy",
-    duration: "2:52",
-    image: "last-last.jpg",
+    album: "Twice As Tall",
+    duration: "3:05",
+    image:
+      "https://imgs.search.brave.com/tDia4ySrNXIV60SEoyd4lzX_zYbq3e5sgrO2jJd1rmU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFUb2ZXekN0ZUwu/anBn",
   },
   {
     id: 2,
     title: "Essence",
     artist: "Wizkid ft. Tems",
+    album: "Made in Lagos",
     duration: "4:08",
-    image: "essence.jpg",
+    image:
+      "https://imgs.search.brave.com/HuSiOrDJ8n25C-BnM5Rajp6yFNOtt5bx7WsUPDIySPA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/MzEzaUc4bWFDNkwu/anBn",
   },
   {
     id: 3,
-    title: "Me & U",
-    artist: "Tems",
-    duration: "3:24",
-    image: "me-and-u.jpg",
+    title: "Unavailable",
+    artist: "Davido ft. Musa Keys",
+    album: "Timeless",
+    duration: "2:49",
+    image:
+      "https://imgs.search.brave.com/1ReuNhy1WAPNFomg4KmT3Wz9aNGnnFrceyu2AwI5HtA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zb3Vy/Y2UuYm9vbXBsYXlt/dXNpYy5jb20vZ3Jv/dXAxMC9NMDAvMDQv/MDcvMzE5MGYzM2Fh/ZDdkNGViOGJiYzg5/ZDY2NmQ5ZTA2YTlf/MzIwXzMyMC5qcGc",
   },
   {
     id: 4,
-    title: "Unavailable",
-    artist: "Davido ft. Musa Keys",
-    duration: "2:49",
-    image: "unavailable.jpg",
+    title: "Love Me JeJe",
+    artist: "Tems",
+    album: "Born in the Wild",
+    duration: "2:59",
+    image:
+      "https://imgs.search.brave.com/tcAD8XMTCuCGUk-EcZqcbvLE3OGsTusgd1jSOsRMFH8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/OC84Ny9UZW1zXy1f/Qm9ybl9pbl90aGVf/V2lsZF9hbGJ1bV9j/b3Zlci5qcGcvMjUw/cHgtVGVtc18tX0Jv/cm5faW5fdGhlX1dp/bGRfYWxidW1fY292/ZXIuanBn",
   },
   {
     id: 5,
     title: "Calm Down",
     artist: "Rema",
+    album: "Rave & Roses",
     duration: "3:39",
-    image: "calm-down.jpg",
-  },
-]; 
-export const albums = [
-  {
-    id: 1,
-    title: "Twice As Tall",
-    artist: "Burna Boy",
-    year: 2020,
-    image: "https://imgs.search.brave.com/tDia4ySrNXIV60SEoyd4lzX_zYbq3e5sgrO2jJd1rmU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFUb2ZXekN0ZUwu/anBn",
-  },
-  {
-    id: 2,
-    title: "Made in Lagos",
-    artist: "Wizkid",
-    year: 2020,
-    image: "https://imgs.search.brave.com/HuSiOrDJ8n25C-BnM5Rajp6yFNOtt5bx7WsUPDIySPA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/MzEzaUc4bWFDNkwu/anBn",
-  },
-  {
-    id: 3,
-    title: "Born in the Wild",
-    artist: "Tems",
-    year: 2024,
-    image: "https://imgs.search.brave.com/tcAD8XMTCuCGUk-EcZqcbvLE3OGsTusgd1jSOsRMFH8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/OC84Ny9UZW1zXy1f/Qm9ybl9pbl90aGVf/V2lsZF9hbGJ1bV9j/b3Zlci5qcGcvMjUw/cHgtVGVtc18tX0Jv/cm5faW5fdGhlX1dp/bGRfYWxidW1fY292/ZXIuanBn",
-  },
-  {
-    id: 4,
-    title: "Timeless",
-    artist: "Davido",
-    year: 2023,
-    image: "https://imgs.search.brave.com/1ReuNhy1WAPNFomg4KmT3Wz9aNGnnFrceyu2AwI5HtA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zb3Vy/Y2UuYm9vbXBsYXlt/dXNpYy5jb20vZ3Jv/dXAxMC9NMDAvMDQv/MDcvMzE5MGYzM2Fh/ZDdkNGViOGJiYzg5/ZDY2NmQ5ZTA2YTlf/MzIwXzMyMC5qcGc",
-  },
-  {
-    id: 5,
-    title: "Rave & Roses",
-    artist: "Rema",
-    year: 2022,
-    image: "https://imgs.search.brave.com/8VC6UUNHlprKL4fte-CM4hRsFBXmwJIS7ctO7yz1k7o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zb3Vy/Y2UuYm9vbXBsYXlt/dXNpYy5jb20vZ3Jv/dXAxMC9NMDAvMDMv/MjMvNWJmMTc4MWIz/ZGI2NGY1OWEyZDNk/OGVhNWM2NWFkMWVf/MzIwXzMyMC5qcGVn",
+    image:
+      "https://imgs.search.brave.com/8VC6UUNHlprKL4fte-CM4hRsFBXmwJIS7ctO7yz1k7o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zb3Vy/Y2UuYm9vbXBsYXlt/dXNpYy5jb20vZ3Jv/dXAxMC9NMDAvMDMv/MjMvNWJmMTc4MWIz/ZGI2NGY1OWEyZDNk/OGVhNWM2NWFkMWVf/MzIwXzMyMC5qcGVn",
   },
   {
     id: 6,
-    title: "19 & Dangerous",
+    title: "Sability",
     artist: "Ayra Starr",
-    year: 2021,
-    image: "https://imgs.search.brave.com/BN9GAW3m9RtHoew_4QSQRNeoW9_Y-OWz_mz9pjVLqqI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vanVzdG5h/aWphLmNvbS91cGxv/YWRzLzIwMjEvMDgv/QXlyYS1TdGFyci0x/OS1EYW5nZXJvdXMt/QWxidW0tYXJ0d29y/ay5wbmc_dWxiPWZh/bHNlJnNzbD0xJnJl/c2l6ZT0zMjAsMzUw",
+    album: "19 & Dangerous",
+    duration: "2:55",
+    image:
+      "https://imgs.search.brave.com/BN9GAW3m9RtHoew_4QSQRNeoW9_Y-OWz_mz9pjVLqqI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vanVzdG5h/aWphLmNvbS91cGxv/YWRzLzIwMjEvMDgv/QXlyYS1TdGFyci0x/OS1EYW5nZXJvdXMt/QWxidW0tYXJ0d29y/ay5wbmc_dWxiPWZh/bHNlJnNzbD0xJnJl/c2l6ZT0zMjAsMzUw",
+  },
+  {
+    id: 7,
+    title: "Onyeka",
+    artist: "Burna Boy",
+    album: "Twice As Tall",
+    duration: "3:03",
+    image:
+      "https://imgs.search.brave.com/tDia4ySrNXIV60SEoyd4lzX_zYbq3e5sgrO2jJd1rmU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFUb2ZXekN0ZUwu/anBn",
+  },
+  {
+    id: 8,
+    title: "Blessed",
+    artist: "Wizkid ft. Damian Marley",
+    album: "Made in Lagos",
+    duration: "4:11",
+    image:
+      "https://imgs.search.brave.com/HuSiOrDJ8n25C-BnM5Rajp6yFNOtt5bx7WsUPDIySPA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/MzEzaUc4bWFDNkwu/anBn",
   },
 ];
