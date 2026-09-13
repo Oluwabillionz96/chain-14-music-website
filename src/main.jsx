@@ -4,7 +4,6 @@ import './index.css'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import RecentlyPlayedSection from '../component/recently-played-section'
 import App from './App.jsx'
-import ArtistSection from '../component/artist-section.jsx'
 import SongsSection from '../component/song.jsx'
 
 createRoot(document.getElementById('root')).render(

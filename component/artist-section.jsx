@@ -1,12 +1,6 @@
 import ArtistCard from "./artist-card"
 import {artists} from "../utils"
  
-
-
-
-
-
-
 const ArtistSection = ()=> {
   return <section>
   <h2>Artists</h2>

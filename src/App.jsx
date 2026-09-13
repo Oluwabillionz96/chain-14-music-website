@@ -11,7 +11,6 @@ const App = () => {
     <main>
       <Header />
       <ArtistSection />
-      
     <PlayList />
     <AlbumSection />
       <RecentlyPlayedSection />
