@@ -1,5 +1,4 @@
 import {songs} from "../utils"
-import {NavLink} from "react-router"
 export default function SongsSection(){
   return(
     <section>
@@ -28,7 +27,6 @@ export default function SongsSection(){
       )}
     </div>
     <div>
-      <NavLink to="/songs">View  All Songs</NavLink>
     </div>
       
     </section>

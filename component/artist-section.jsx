@@ -9,6 +9,7 @@ const ArtistSection = ()=> {
   return <ArtistCard key={item.id} artist={item.name} image={item.image}/>
  })}
   </div>
+  
   </section>
 }
 

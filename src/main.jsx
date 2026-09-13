@@ -4,6 +4,7 @@ import './index.css'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import RecentlyPlayedSection from '../component/recently-played-section'
 import App from './App.jsx'
+import AlbumSection from '../component/album-section.jsx'
 import SongsSection from '../component/song.jsx'
 import PlayList from '../component/playlist-section.jsx'
 
@@ -15,7 +16,8 @@ createRoot(document.getElementById('root')).render(
   <Route path="/" element={<App />} />
   <Route path="/playlist" element={<PlayList/>} />
     <Route path="/recently-played" element={<RecentlyPlayedSection />} />
-     <Route path="/songs" element={<SongsSection />}  />
+          <Route path="/songs" element={<SongsSection />} />
+          <Route path="/album" element={<AlbumSection/>} />
    <Route path="*" element={<h1>404 Not Found</h1>} />
     </Routes>
   </BrowserRouter>,
