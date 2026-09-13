@@ -3,9 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import RecentlyPlayedSection from '../component/recently-played-section'
-import ArtistSection from '../component/artist-section.jsx'
-import SongsSection from '../component/song.jsx'
 import App from './App.jsx'
+import SongsSection from '../component/song.jsx'
 import PlayList from '../component/playlist-section.jsx'
 
 
