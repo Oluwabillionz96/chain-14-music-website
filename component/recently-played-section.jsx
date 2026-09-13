@@ -6,7 +6,6 @@ export default function RecentlyPlayedSection(){
         <SongCard number={100}/>
         {recentlyPlayed.map((song)=>{
         return <SongCard key={song.id}  number={song.id} img={song.img} title={song.title} artist={song.artist} />
-
         })}
     </section>
     
