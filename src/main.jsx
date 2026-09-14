@@ -8,21 +8,26 @@ import AlbumSection from '../component/album-section.jsx'
 import SongsSection from '../component/song.jsx'
 import PlayList from '../component/playlist-section.jsx'
 import ArtistSection from '../component/artist-section.jsx'
+import Artist from '../component/Artist.jsx'
+import Song from '../component/songs.jsx'
 
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
- <BrowserRouter>
- <Routes>
-  <Route path="/" element={<App />} />
-  <Route path="/playlist" element={<PlayList/>} />
-    <Route path="/recently-played" element={<RecentlyPlayedSection />} />
-          <Route path="/songs" element={<SongsSection />} />
-          <Route path="/artist" element={<ArtistSection/>} />
-          <Route path="/album" element={<AlbumSection/>} />
-   <Route path="*" element={<h1>404 Not Found</h1>} />
-    </Routes>
-  </BrowserRouter>,
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/playlist" element={<PlayList />} />
+        <Route path="/recently-played" element={<RecentlyPlayedSection />} />
+        <Route path="/songs" element={<SongsSection />} />
+        <Route path="/artist" element={<ArtistSection />} />
+        <Route path="/album" element={<AlbumSection />} />
+        <Route path="/artist/:id" element={<Artist />} />
+        <Route path="/songs/:id" element={<Song />} />
 
+        <Route path="*" element={<h1>404 Not Found</h1>} />
+      </Routes>
+    </BrowserRouter>
+    ,
   </StrictMode>,
-)
+);
