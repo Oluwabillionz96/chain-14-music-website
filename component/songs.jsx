@@ -1,27 +1,22 @@
 import { useParams } from "react-router";
+import { songs } from "../utils";
 
 export default function Song() {
   let params = useParams();
-    const song = song.find((song) => artist.id == params.id)
-        if (!artist) {
+    const song = songs.find((song) => song.id == params.id)
+        if (!song) {
             return (
                 <div>
-                    <h1>Artist not found</h1>
+                    <h1>song not found</h1>
                 </div>
             )
         }
     
         return (
           <div>
-            <h1>{artist.name}</h1>
-            <img src={artist.image} alt="" />
+            <h1>{song.title}</h1>
+            <img src={song.image} alt="" />
           </div>
         );
-
-  console.log(params);
-  return (
-    <div>
-      <h1> {params.id} </h1>
-    </div>
-  );
+  
 }
