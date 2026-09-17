@@ -1,6 +1,6 @@
 import { albums } from "../utils";
 import AlbumCard from "./album-card";
-
+ import { NavLink } from "react-router";
 export default function AlbumSection() {
   return (
     <section>
@@ -8,13 +8,15 @@ export default function AlbumSection() {
       <div class="albums">
         {albums.map((item) => {
           return (
-            <AlbumCard
-              key={item.id}
-              name={item.title}
-              artist={item.artist}
-              year={item.year}
-              image={item.image}
-            />
+            <NavLink to={`/album/${item.id}`}>
+              <AlbumCard
+                key={item.id}
+                name={item.title}
+                artist={item.artist}
+                year={item.year}
+                image={item.image}
+              />
+            </NavLink>
           );
         })}
       </div>

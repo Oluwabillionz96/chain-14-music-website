@@ -8,8 +8,8 @@ import SongsSection from '../component/song'
 
 const App = () => {
   return (
-    <main>
-      <Header />
+    <>
+    
       <ArtistSection />
     <PlayList />
     <AlbumSection />
@@ -17,7 +17,7 @@ const App = () => {
     <SongsSection />
       
 
-    </main>
+    </>
   )
 }
 

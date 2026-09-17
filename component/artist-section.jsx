@@ -1,6 +1,6 @@
 import ArtistCard from "./artist-card";
 import { artists } from "../utils";
-
+import { NavLink } from "react-router";
 const ArtistSection = () => {
   return (
     <section>
@@ -8,7 +8,9 @@ const ArtistSection = () => {
       <div className="artists">
         {artists.map((item) => {
           return (
+            <NavLink to={`/artist/${item.id}`}> 
             <ArtistCard key={item.id} artist={item.name} image={item.image} />
+            </NavLink>
           );
         })}
       </div>
