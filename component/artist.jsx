@@ -3,10 +3,13 @@ import { artists } from "../utils";
 import ArtistCard from "./artist-card";
 
 export default function Artist() {
-  let params = useParams();
-  const artist = artists.find((item) => item.id == params.artistId);
+    let params = useParams();
+
+    const artist = artists.find((item) => item.id == params.artistId); //UNDEFINED || {}
+    
   if (artist === undefined) {
     return <h1>Artist not found</h1>;
-  }
-    return <ArtistCard image={ artist.image} name={artist.name} />
+    }
+    
+  return <ArtistCard image={artist.image} artist={artist.name} />;
 }
