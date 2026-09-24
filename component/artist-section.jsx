@@ -1,7 +1,7 @@
 import ArtistCard from "./artist-card";
-import { artists } from "../utils";
+// import { artists } from "../utils";
 
-const ArtistSection = () => {
+const ArtistSection = ({artists=[]}) => {
   return (
     <section>
       <h2>Artists</h2>
