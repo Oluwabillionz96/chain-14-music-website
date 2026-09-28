@@ -1,6 +1,6 @@
-import { playlists } from "../utils";
 
-const PlayList = () => {
+
+const PlayList = ({ playlists }) => {
   return (
     <section>
       <h2> PlayList </h2>

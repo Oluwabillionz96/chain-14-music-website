@@ -1,8 +1,8 @@
 import { NavLink } from "react-router"
-import {recentlyPlayed} from "../utils"
+// import {recentlyPlayed} from "../utils"
 import SongCard from "./songs-card"
-export default function RecentlyPlayedSection(){
-    return(
+export default function RecentlyPlayedSection({ recentlyPlayed }) {
+    return (
           <section>
         <h2>Recently Played</h2>
         <SongCard number={100}/>

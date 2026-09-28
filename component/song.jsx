@@ -1,18 +1,6 @@
 // import {songs} from "../utils"
-import {useState, useEffect} from "react"
-export default function SongsSection(){
-  const [songs, setSongs] = useState([]);
-
-  useEffect(() => {
-    async function fetchData() {
-      const res = await fetch('https://chain14-music-website-backend.vercel.app/songs');
-      const songs = await res.json();
-      // console.log(songs);
-      setSongs(songs.data);
-    }
-
-    fetchData();
-  }, []);
+export default function SongsSection({songs}){
+ 
 
   return(
     <section>

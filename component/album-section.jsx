@@ -1,7 +1,7 @@
-import { albums } from "../utils";
+
 import AlbumCard from "./album-card";
 
-export default function AlbumSection() {
+export default function AlbumSection({albums}) {
   return (
     <section>
       <h2>Albums</h2>

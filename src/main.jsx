@@ -9,6 +9,7 @@ import SongsSection from '../component/song.jsx'
 import PlayList from '../component/playlist-section.jsx'
 import ArtistSection from '../component/artist-section.jsx'
 import RootLayout from '../component/root-layout.jsx'
+import Artist from '../component/artist.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
   <Route path="/playlist" element={<PlayList/>} />
     <Route path="/recently-played" element={<RecentlyPlayedSection />} />
           <Route path="/songs" element={<SongsSection />} />
+          <Route path="/artist/:id" element={<Artist />} />
           <Route path="/songs/:id" element={<SongsSection />} />
           <Route path="/artist" element={<ArtistSection/>} />
           <Route path="/album" element={<AlbumSection/>} />
